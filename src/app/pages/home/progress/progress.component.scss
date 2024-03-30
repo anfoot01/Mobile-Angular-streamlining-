@@ -1,0 +1,30 @@
+.progress {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    color: #595085;
+}
+
+.progress span {
+    font-weight: 400;
+    color: #c93f8d;
+}
+
+.progress-path {
+    background: #fdf9fb;
+    justify-content: flex-start;
+    border-radius: 15px;
+    align-items: center;
+    position: relative;
+    padding: 2px;
+    display: flex;
+    height: 8px;
+    margin-bottom: 45px;
+}
+
+.progress-value {
+    border-radius: 15px;
+    background: #c93f8d;
+    height: 8px;
+    width: 60%;
+}

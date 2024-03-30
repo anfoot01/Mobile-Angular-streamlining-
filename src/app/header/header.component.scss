@@ -1,0 +1,32 @@
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 27px;
+}
+
+.status {
+    display: flex;
+    gap: 7px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 14px;
+}
+
+.title {
+    color: rgb(89, 80, 133);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+span {
+    cursor: pointer;
+}
